@@ -1,0 +1,30 @@
+ul.cgd-arrange-taxonomy {
+	margin-left: 0;
+}
+
+ul.cgd-arrange-taxonomy li > div {
+	margin-bottom: 6px;
+	cursor: pointer;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	border: 1px solid #E5E5E5;;
+	background: #fff;
+	padding: 6px;
+	max-width: 50%;
+}
+
+ul.cgd-arrange-taxonomy ul {
+	margin-left: 30px;
+}
+
+ul.cgd-arrange-taxonomy li div .sort-icon:before {
+	content: "\f214";
+	color: #ccc;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font: normal 16px/1 'dashicons';
+    vertical-align: top;
+}
+
+ul.cgd-arrange-taxonomy li div:hover .sort-icon:before {
+	color: #444;
+}

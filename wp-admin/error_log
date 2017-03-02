@@ -1,0 +1,55 @@
+[21-Nov-2016 13:46:04 UTC] PHP Warning:  Illegal string offset 'id' in /home/uibazzar/public_html/wp-content/plugins/cloud/shortcodes/user_files_table.php on line 2
+[21-Nov-2016 13:46:04 UTC] PHP Warning:  Division by zero in /home/uibazzar/public_html/wp-content/plugins/cloud/panel.php on line 34
+[21-Nov-2016 13:48:15 UTC] PHP Warning:  Illegal string offset 'id' in /home/uibazzar/public_html/wp-content/plugins/cloud/shortcodes/user_files_table.php on line 2
+[21-Nov-2016 13:50:53 UTC] PHP Warning:  Illegal string offset 'id' in /home/uibazzar/public_html/wp-content/plugins/cloud/shortcodes/user_files_table.php on line 2
+[22-Nov-2016 18:16:51 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'disable_emojicons_tinymce' not found or invalid function name in /home/uibazzar/public_html/wp-includes/plugin.php on line 235
+[22-Nov-2016 18:16:51 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/uibazzar/public_html/wp-includes/class-wp-editor.php on line 430
+[22-Nov-2016 18:16:51 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/uibazzar/public_html/wp-includes/class-wp-editor.php on line 432
+[22-Nov-2016 18:16:51 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/uibazzar/public_html/wp-includes/class-wp-editor.php on line 553
+[22-Nov-2016 18:16:52 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/uibazzar/public_html/wp-includes/class-wp-editor.php on line 781
+[22-Nov-2016 18:16:52 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/uibazzar/public_html/wp-includes/class-wp-editor.php on line 1180
+[22-Nov-2016 18:16:52 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/uibazzar/public_html/wp-includes/class-wp-editor.php on line 1297
+[22-Nov-2016 18:17:20 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'disable_emojicons_tinymce' not found or invalid function name in /home/uibazzar/public_html/wp-includes/plugin.php on line 235
+[22-Nov-2016 18:17:20 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/uibazzar/public_html/wp-includes/class-wp-editor.php on line 430
+[22-Nov-2016 18:17:20 UTC] PHP Warning:  array_search() expects parameter 2 to be array, null given in /home/uibazzar/public_html/wp-includes/class-wp-editor.php on line 432
+[22-Nov-2016 18:17:20 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/uibazzar/public_html/wp-includes/class-wp-editor.php on line 553
+[22-Nov-2016 18:17:20 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/uibazzar/public_html/wp-includes/class-wp-editor.php on line 781
+[22-Nov-2016 18:17:20 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/uibazzar/public_html/wp-includes/class-wp-editor.php on line 1180
+[22-Nov-2016 18:17:20 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/uibazzar/public_html/wp-includes/class-wp-editor.php on line 1297
+[28-Nov-2016 18:46:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/freebiesmall/public_html/wp-content/themes/uibazzar/functions.php on line 470
+[03-Dec-2016 16:34:51 UTC] PHP Warning:  Illegal string offset 'id' in /home/freebiesmall/public_html/wp-content/plugins/cloud/shortcodes/user_files_table.php on line 2
+[04-Dec-2016 18:30:03 UTC] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling POST https://www.googleapis.com/drive/v2/files/0B-5AAMUiPhPXU0h1LS13SFFkMWc/permissions: (403) Rate limit exceeded. User message: "Sorry, you have exceeded your sharing quota."' in /home/freebiesmall/public_html/wp-content/plugins/google-drive-wp-media/gdwpm-api/io/Google_REST.php:66
+Stack trace:
+#0 /home/freebiesmall/public_html/wp-content/plugins/google-drive-wp-media/gdwpm-api/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home/freebiesmall/public_html/wp-content/plugins/google-drive-wp-media/gdwpm-api/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home/freebiesmall/public_html/wp-content/plugins/google-drive-wp-media/gdwpm-api/contrib/Google_DriveService.php(777): Google_ServiceResource->__call('insert', Array)
+#3 /home/freebiesmall/public_html/wp-content/plugins/google-drive-wp-media/google-drive-wp-media.php(2334): Google_PermissionsServiceResou in /home/freebiesmall/public_html/wp-content/plugins/google-drive-wp-media/gdwpm-api/io/Google_REST.php on line 66
+[04-Dec-2016 18:34:44 UTC] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling POST https://www.googleapis.com/drive/v2/files/0B-5AAMUiPhPXU0h1LS13SFFkMWc/permissions: (403) Rate limit exceeded. User message: "Sorry, you have exceeded your sharing quota."' in /home/freebiesmall/public_html/wp-content/plugins/google-drive-wp-media/gdwpm-api/io/Google_REST.php:66
+Stack trace:
+#0 /home/freebiesmall/public_html/wp-content/plugins/google-drive-wp-media/gdwpm-api/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home/freebiesmall/public_html/wp-content/plugins/google-drive-wp-media/gdwpm-api/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home/freebiesmall/public_html/wp-content/plugins/google-drive-wp-media/gdwpm-api/contrib/Google_DriveService.php(777): Google_ServiceResource->__call('insert', Array)
+#3 /home/freebiesmall/public_html/wp-content/plugins/google-drive-wp-media/google-drive-wp-media.php(2334): Google_PermissionsServiceResou in /home/freebiesmall/public_html/wp-content/plugins/google-drive-wp-media/gdwpm-api/io/Google_REST.php on line 66
+[09-Dec-2016 19:39:16 UTC] [CloudFlare] ERROR: Missing required parameter: 'apiKey'. 
+[09-Dec-2016 19:44:45 UTC] [CloudFlare] ERROR: Missing required parameter: 'apiKey'. 
+[10-Dec-2016 15:29:10 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/freebiesmall/public_html/wp-content/plugins/sunny/uninstall.php on line 46
+[10-Dec-2016 15:30:27 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/freebiesmall/public_html/wp-content/plugins/sunny/uninstall.php on line 46
+[10-Dec-2016 15:31:23 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/freebiesmall/public_html/wp-content/plugins/sunny/uninstall.php on line 46
+[10-Dec-2016 16:21:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/freebiesmall/public_html/wp-content/plugins/wp-optimize/wp-optimize-credits.php on line 78
+[18-Dec-2016 07:26:33 UTC] PHP Parse error:  syntax error, unexpected 'px' (T_STRING) in /home/freebiesmall/public_html/wp-content/themes/uibazzar/functions.php on line 84
+[18-Dec-2016 07:26:42 UTC] PHP Parse error:  syntax error, unexpected 'px' (T_STRING) in /home/freebiesmall/public_html/wp-content/themes/uibazzar/functions.php on line 84
+[18-Dec-2016 07:26:51 UTC] PHP Parse error:  syntax error, unexpected 'px' (T_STRING) in /home/freebiesmall/public_html/wp-content/themes/uibazzar/functions.php on line 84
+[18-Dec-2016 07:27:03 UTC] PHP Parse error:  syntax error, unexpected 'px' (T_STRING) in /home/freebiesmall/public_html/wp-content/themes/uibazzar/functions.php on line 84
+[18-Dec-2016 07:27:52 UTC] PHP Parse error:  syntax error, unexpected 'px' (T_STRING) in /home/freebiesmall/public_html/wp-content/themes/uibazzar/functions.php on line 84
+[18-Dec-2016 07:28:17 UTC] PHP Parse error:  syntax error, unexpected 'px' (T_STRING) in /home/freebiesmall/public_html/wp-content/themes/uibazzar/functions.php on line 84
+[18-Dec-2016 07:29:14 UTC] PHP Parse error:  syntax error, unexpected 'px' (T_STRING) in /home/freebiesmall/public_html/wp-content/themes/uibazzar/functions.php on line 84
+[18-Dec-2016 07:29:43 UTC] PHP Parse error:  syntax error, unexpected 'px' (T_STRING) in /home/freebiesmall/public_html/wp-content/themes/uibazzar/functions.php on line 84
+[18-Dec-2016 07:30:03 UTC] PHP Parse error:  syntax error, unexpected 'px' (T_STRING) in /home/freebiesmall/public_html/wp-content/themes/uibazzar/functions.php on line 84
+[18-Dec-2016 07:30:13 UTC] PHP Parse error:  syntax error, unexpected 'px' (T_STRING) in /home/freebiesmall/public_html/wp-content/themes/uibazzar/functions.php on line 84
+[18-Dec-2016 07:30:27 UTC] PHP Parse error:  syntax error, unexpected 'px' (T_STRING) in /home/freebiesmall/public_html/wp-content/themes/uibazzar/functions.php on line 84
+[18-Dec-2016 07:30:30 UTC] PHP Parse error:  syntax error, unexpected 'px' (T_STRING) in /home/freebiesmall/public_html/wp-content/themes/uibazzar/functions.php on line 84
+[18-Dec-2016 07:30:30 UTC] PHP Parse error:  syntax error, unexpected 'px' (T_STRING) in /home/freebiesmall/public_html/wp-content/themes/uibazzar/functions.php on line 84
+[18-Dec-2016 07:30:58 UTC] PHP Parse error:  syntax error, unexpected 'px' (T_STRING) in /home/freebiesmall/public_html/wp-content/themes/uibazzar/functions.php on line 84
+[18-Dec-2016 07:31:06 UTC] PHP Parse error:  syntax error, unexpected 'px' (T_STRING) in /home/freebiesmall/public_html/wp-content/themes/uibazzar/functions.php on line 84
+[11-Jan-2017 20:04:07 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/freebiesmall/public_html/wp-content/themes/uibazzar/functions.php on line 730
+[17-Jan-2017 19:39:55 UTC] WordPress database error Duplicate key name 'disqus_dupecheck' for query CREATE INDEX disqus_dupecheck ON `fb_r3k1o0r987_commentmeta` (meta_key, meta_value(11)); made by require_once('wp-admin/admin.php'), do_action('comments_page_disqus'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, dsq_manage, dsq_install, dsq_install_database

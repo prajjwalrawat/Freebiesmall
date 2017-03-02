@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){var e=cf7_hide_success_msg_params.delay_time,s=cf7_hide_success_msg_params.effect,c=cf7_hide_success_msg_params.speed;console.log(e),console.log(s),console.log(c),jQuery(document).on("ajaxComplete",function(){jQuery(".wpcf7-mail-sent-ok").delay(e)[s](c)})});

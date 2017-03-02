@@ -1,0 +1,58 @@
+[03-Feb-2017 18:57:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function string_limit_words() in /home/markupoc/public_html/wp-content/themes/uibazzar/blog-template.php:57
+Stack trace:
+#0 /home/markupoc/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/markupoc/public_html/wp-blog-header.php(19): require_once('/home/markupoc/...')
+#2 /home/markupoc/public_html/fix.php(48): require('/home/markupoc/...')
+#3 /home/markupoc/public_html/index.php(8): include('/home/markupoc/...')
+#4 {main}
+  thrown in /home/markupoc/public_html/wp-content/themes/uibazzar/blog-template.php on line 57
+[03-Feb-2017 18:59:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function string_limit_words() in /home/markupoc/public_html/wp-content/themes/uibazzar/blog-template.php:57
+Stack trace:
+#0 /home/markupoc/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/markupoc/public_html/wp-blog-header.php(19): require_once('/home/markupoc/...')
+#2 /home/markupoc/public_html/fix.php(48): require('/home/markupoc/...')
+#3 /home/markupoc/public_html/index.php(8): include('/home/markupoc/...')
+#4 {main}
+  thrown in /home/markupoc/public_html/wp-content/themes/uibazzar/blog-template.php on line 57
+[03-Feb-2017 19:00:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function string_limit_words() in /home/markupoc/public_html/wp-content/themes/uibazzar/blog-template.php:57
+Stack trace:
+#0 /home/markupoc/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/markupoc/public_html/wp-blog-header.php(19): require_once('/home/markupoc/...')
+#2 /home/markupoc/public_html/fix.php(48): require('/home/markupoc/...')
+#3 /home/markupoc/public_html/index.php(8): include('/home/markupoc/...')
+#4 {main}
+  thrown in /home/markupoc/public_html/wp-content/themes/uibazzar/blog-template.php on line 57
+[03-Feb-2017 19:00:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function string_limit_words() in /home/markupoc/public_html/wp-content/themes/uibazzar/blog-template.php:57
+Stack trace:
+#0 /home/markupoc/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/markupoc/public_html/wp-blog-header.php(19): require_once('/home/markupoc/...')
+#2 /home/markupoc/public_html/fix.php(48): require('/home/markupoc/...')
+#3 /home/markupoc/public_html/index.php(8): include('/home/markupoc/...')
+#4 {main}
+  thrown in /home/markupoc/public_html/wp-content/themes/uibazzar/blog-template.php on line 57
+[03-Feb-2017 20:15:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function disqus_embed() in /home/markupoc/public_html/wp-content/themes/uibazzar/single-blogs.php:46
+Stack trace:
+#0 /home/markupoc/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/markupoc/public_html/wp-blog-header.php(19): require_once('/home/markupoc/...')
+#2 /home/markupoc/public_html/fix.php(48): require('/home/markupoc/...')
+#3 /home/markupoc/public_html/index.php(8): include('/home/markupoc/...')
+#4 {main}
+  thrown in /home/markupoc/public_html/wp-content/themes/uibazzar/single-blogs.php on line 46
+[08-Feb-2017 14:27:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_thumbnail() in /home/markupoc/public_html/wp-content/themes/uibazzar/single-blogs.php:31
+Stack trace:
+#0 /home/markupoc/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/markupoc/public_html/wp-blog-header.php(19): require_once('/home/markupoc/...')
+#2 /home/markupoc/public_html/fix.php(48): require('/home/markupoc/...')
+#3 /home/markupoc/public_html/index.php(8): include('/home/markupoc/...')
+#4 {main}
+  thrown in /home/markupoc/public_html/wp-content/themes/uibazzar/single-blogs.php on line 31
+[08-Feb-2017 14:27:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_thumbnail() in /home/markupoc/public_html/wp-content/themes/uibazzar/single-blogs.php:31
+Stack trace:
+#0 /home/markupoc/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/markupoc/public_html/wp-blog-header.php(19): require_once('/home/markupoc/...')
+#2 /home/markupoc/public_html/fix.php(48): require('/home/markupoc/...')
+#3 /home/markupoc/public_html/index.php(8): include('/home/markupoc/...')
+#4 {main}
+  thrown in /home/markupoc/public_html/wp-content/themes/uibazzar/single-blogs.php on line 31
+[24-Feb-2017 22:56:20 UTC] Error checking in buffer: The buffer you checked in was not checked out
+[24-Feb-2017 22:56:20 UTC] Error checking in buffer: There are no checked out buffers

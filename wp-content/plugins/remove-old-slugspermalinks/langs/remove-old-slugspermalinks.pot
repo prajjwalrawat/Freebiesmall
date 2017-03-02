@@ -1,0 +1,90 @@
+# Copyright (C) 2016 Remove Old Slugs
+# This file is distributed under the same license as the Remove Old Slugs package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Remove Old Slugs 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/remove-old-"
+"slugspermalinks\n"
+"POT-Creation-Date: 2016-10-25 19:09:52+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: remove-old-slugs.php:48
+msgid "Settings"
+msgstr ""
+
+#: remove-old-slugs.php:72 remove-old-slugs.php:199
+msgid "Remove Old Slugs Plugin"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (Remove Old Slugs 2.0.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: remove-old-slugs.php:73 remove-old-slugs.php:178
+msgid "Remove Old Slugs"
+msgstr ""
+
+#: remove-old-slugs.php:142
+msgid "Removing old slugs from database finished! %d old slug(s) deleted."
+msgstr ""
+
+#: remove-old-slugs.php:152
+msgid "Old Slug"
+msgstr ""
+
+#: remove-old-slugs.php:153
+msgid "Post ID"
+msgstr ""
+
+#: remove-old-slugs.php:154
+msgid "Post Title"
+msgstr ""
+
+#: remove-old-slugs.php:155
+msgid "Post Type"
+msgstr ""
+
+#: remove-old-slugs.php:156
+msgid "Current Slug"
+msgstr ""
+
+#: remove-old-slugs.php:174
+msgid "<p><strong>%d</strong> old slug(s) found:<p>"
+msgstr ""
+
+#: remove-old-slugs.php:185
+msgid "No old slugs found in database."
+msgstr ""
+
+#: remove-old-slugs.php:200
+msgid "This tool removes old slugs (permalinks) from database."
+msgstr ""
+
+#: remove-old-slugs.php:206
+msgid "Refresh page"
+msgstr ""
+
+#: remove-old-slugs.php:212
+msgid ""
+"If you like our plugin and find it useful - <a href=\"%s\" target=\"_blank"
+"\">please buy us a coffee</a> :)"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.snippet.fm"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Plugin removes old slugs (permalinks) from database."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Algoritmika Ltd."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.algoritmika.com"
+msgstr ""
