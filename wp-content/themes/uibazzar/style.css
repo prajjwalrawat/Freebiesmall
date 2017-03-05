@@ -2496,7 +2496,7 @@ body .wpcf7-submit {
 .headerInner .navbar-default{box-shadow:none; background:none; border-radius:0;}
 .container1{max-width:1270px; margin:0 auto; padding:0;}
 
-
+#crestashareicon{background:#fff; left:0 !important; padding:15px; border-radius:0 10px 10px 0; -webkit-border-radius:0 10px 10px 0; -moz-border-radius:0 10px 10px 0; -ms-border-radius:0 10px 10px 0; -o-border-radius:0 10px 10px 0;}
 
 
 

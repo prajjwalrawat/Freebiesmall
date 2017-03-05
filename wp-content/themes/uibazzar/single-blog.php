@@ -7,7 +7,6 @@
 * @since Twenty Sixteen 1.0
 */
 get_header('header2'); ?>
-<!-- Featured UI kIT -->
 <section class="commonBlockGapLgFixed pdpOuter pdp-download greySingle">
 	<div class="center-signle-pagePdp">
 		<div class="container-fluid">
@@ -81,7 +80,7 @@ get_header('header2'); ?>
 							</div>
 						</div>
 					</aside>
-				</div>
+				</div><!--row-->
 			</div>
 		</div>
 	</section>

@@ -156,93 +156,7 @@ get_header(); ?>
 					</div>
 					<?php endwhile;   wp_reset_postdata(); ?>
 					<!-- Related Posts -->
-					
-					<section class="relatedOuter fullWidth">
-						<div class="blogCards fullWidth twoRadius">
-							<div class="titleBlock fullWidth">
-								<h3 class="reltTtle"> Don't Lose Heart, You Might Also Like </h3>
-							</div>
-							<div class="row">
-								<?php
-								$orig_post = $post;
-								global $post;
-								$tags = wp_get_post_tags($post->ID);
-								
-								if ($tags) {
-								$tag_ids = array();
-								foreach($tags as $individual_tag) $tag_ids[] = $individual_tag->term_id;
-								$args=array(
-								'tag__in' => $tag_ids,
-								'post__not_in' => array($post->ID),
-								'posts_per_page'=>9, // Number of related posts to display.
-								'caller_get_posts'=>1
-								);
-								
-								$my_query = new wp_query( $args );
-								
-								while( $my_query->have_posts() ) {
-								$my_query->the_post();
-								?>
-								
-								<!-- Post loop -->
-								<article class="col-xs-6 col-sm-6 col-md-4 hentry productCards-lgDesk">
-									<div class="productCard">
-										<div class="thumbnail twoRadius">
-											<div class="blogBlock">
-												<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-													<div class="imgBox">
-														<?php the_post_thumbnail('thumbnail-product'); ?>
-														<!-- File Format Available -->
-														<ul class="fileformat">
-															<?php if( get_field('psd') ): ?>
-															<li>
-																
-																<span> <?php the_field('psd'); ?> </span>
-															</li>
-															<?php endif; ?>
-															<?php if( get_field('sketch') ): ?>
-															<li>
-																
-																<span> <?php the_field('sketch'); ?> </span>
-															</li>
-															<?php endif; ?>
-															<?php if( get_field('ai') ): ?>
-															<li>
-																
-																<span> <?php the_field('ai'); ?> </span>
-															</li>
-															<?php endif; ?>
-															<?php if( get_field('fonts') ): ?>
-															<li>
-																
-																<span> <?php the_field('fonts'); ?></span>
-															</li>
-															<?php endif; ?>
-															<?php if( get_field('wordpresstheme') ): ?>
-															<li>
-																
-																<span> <?php the_field('wordpresstheme'); ?> </span>
-															</li>
-															<?php endif; ?>
-														</ul>
-													</div>
-													<div class="animateAll toolsTitle">
-														<h2 class="productTitle"><?php the_title(); ?></h2>
-													</div>
-												</a>
-											</div>
-										</div>
-									</div>
-								</article>
-								<!-- Post loop ends -->
-								<? }
-								}
-								$post = $orig_post;
-								wp_reset_query();
-								?>
-							</div>
-						</div>
-						</section><!-- Related Posts ends-->
+
 						
 					</div>
 					<aside class="col-md-3 col-sm-4" itemscope itemtype="http://schema.org/WPSideBar">
@@ -250,20 +164,82 @@ get_header(); ?>
 							<div class="ydntTry">
 								<div class="clearfix"><!-- empty --></div>
 								<nav id="categoryAll">
-									<?php dynamic_sidebar( 'catnav' ); ?>
+									<?php //dynamic_sidebar( 'catnav' ); ?>
 								</nav>
 							</div>
 							<div class="fullwidth twoRadius">
-								<?php dynamic_sidebar( 'common-advert1' ); ?>
+								<?php //dynamic_sidebar( 'common-advert1' ); ?>
 							</div>
 							<div class="fullwidth twoRadius">
-								<?php dynamic_sidebar( 'pdp-category-nav' ); ?>
+								<?php //dynamic_sidebar( 'pdp-category-nav' ); ?>
 							</div>
 						</div>
 					</aside>
 				</div>
+                <div class="commentForm">
+                	<?php comments_template('/comments.php'); ?>
+                </div><!--commentForm-->
 			</div>
 		</div>
 	</section>
+    
+<style>
+.commentForm{float:left; width:700px; margin:0 0 80px 0;}
+.messageBox{width:100%; float:left; margin:0 0 5px;}
+.messageBox textarea{height:135px;}
+.commentForm .field{background:#fff; border:1px solid #f3f4f5; padding:20px 25px; color:#dc4031; font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:1.75em; width:100%; float:left;}
+.nameBox{width:49.5%; float:left;}
+.emailBox{width:49.5%; float:right;}
+.commentForm input::-moz-placeholder, 
+.commentForm textarea::-moz-placeholder{color:#707378;}
+.submitbox{text-align:right;}
+.submitbox input[type="submit"]{display:inline-block; line-height:1.45em; font-size:16px; padding:13px 45px; background:#fff; border:2px solid #dc4031; border-radius: 2.5em; -moz-border-radius: 2.5em; -ms-border-radius: 2.5em; -o-border-radius: 2.5em; -webkit-border-radius: 2.5em; font-family:Arial, Helvetica, sans-serif; font-weight:700; color:#dc4031; margin:10px 0 0 0;}
+.submitbox input[type="submit"]:hover{background-color:#dc4031; color:#fff;}
+.comment-reply-title{font-weight:300; font-size:30px; color:#dc4031; margin:25px 0;}
+.commentForm .comment-author img{display:none;}
+.commentForm .comment-author .says{display:none;}
+.comment-metadata{display:none;}
+.commentForm .comment-author .fn{color:#43464b; font-size: 22px; font-weight: bold; line-height: 1.66429em;}
+.commentForm .comment-author .fn a{color:#43464b; text-decoration:none;}
+.comment-content p{margin-bottom: 1.5em; color: #707378; font-size: 14px; line-height: 1.71429em; overflow-wrap: break-word;}
+.comment-reply-link{display:inline-block; line-height:1.45em; font-size:14px; padding:11px 30px; background:#fff; border:1px solid #e3e9eb; border-radius: 2.5em; -moz-border-radius: 2.5em; -ms-border-radius: 2.5em; -o-border-radius: 2.5em; -webkit-border-radius: 2.5em; font-family:Arial, Helvetica, sans-serif; font-weight:700; color:#dc4031; margin:0; text-decoration:none; text-transform:uppercase;}
+.comment-reply-link:hover{background-color:#dc4031; color:#fff;  text-decoration:none;}
+.comment .children {margin-left:49px;}
+.comment-body{color: #707378; font-size: 14px; hyphens: auto; line-height: 1.71429em; overflow-wrap: break-word;}
+.children .comment-body {padding-left: 49px;}
+.children > .comment > .comment-body {border-left: 2px solid #dadada;}
+.children > .bypostauthor > .comment-body {border-color: #f16334;}
+.comment-author{border-top: 1px solid #dadada; margin-top: 27px; padding-top: 27px; position: relative;}
+.children .comment-author {padding-top: 25px;}
+.children .comment-author::after{background: #f2f2f2; content: ""; display: block; height: 36px; left: -52px; position: absolute; top: -2px; width: 5px;}
+.comment-author{color:#43464b; font-size:22px; font-weight:bold; line-height:1.66429em; margin-bottom:0.5em;}
+.submitbox{width:100%; float:left;}
+#comments{line-height:24px;}
+
+
+@media(max-width:991px){
+.commentForm{width:100%;}	
+	
+	
+}
+
+@media(max-width:767px){
+.comment .children{margin-left:15px;}
+.children .comment-author::after {width:40px;}
+.children .comment-body{padding-left:15px;}
+.commentForm .comment-author .fn{font-size:20px;}
+.comment-reply-title{font-size:22px;}
+.commentForm .field{width:100%;}
+.emailBox,
+.nameBox{width:100%; margin:0 0 5px 0;}
+.submitbox input[type="submit"]{margin:5px 0 0 0; display:block; width:100%;}
+.shareThis-block ul li{margin:0 4px 6px 0;}
+
+
+}
+</style>    
+    
+    
+    
 	<div class="singlePageFooterGap fullwidth"><!-- empty --></div>
 	<?php get_footer(); ?>
